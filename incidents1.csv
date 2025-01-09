@@ -1,0 +1,6 @@
+Id,titre,description,service,date
+1,Erreur réseau,Problème de connexion au serveur,Informatique,2023-01-15
+2,Panne électrique,Alimentation interrompue au bâtiment B,Maintenance,2023-01-16
+3,Erreur de médicament,Prescription erronée enregistrée,Pharmacie,2022-12-01
+4,Manque de personnel,Personnel insuffisant pour le service d'urgence,Administration,2023-01-20
+5,Incident patient,Chute d'un patient dans le couloir,Soins,2023-02-10

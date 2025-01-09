@@ -1,9 +1,9 @@
-Spark Streaming Processing
+# Spark Streaming Processing
 
 ---
-# Spark envirment Preparation
+## Spark envirment Preparation
 
-## Lounch your spark cluster using the command docker compose:
+### Lounch your spark cluster using the command docker compose:
 ```docker
 docker-compose up -d
 ```
@@ -149,9 +149,9 @@ CAPACITY-SCHEDULER.XML_yarn.scheduler.capacity.queue-mappings-override.enable=fa
 
 ---
 
-# Spark Application developpment and compilation  
+## Spark Application developpment and compilation  
 
-## Incident application :
+### Incident application :
 
 ```java
 package oulakbir.ilham;
@@ -219,7 +219,7 @@ public class AppIncidents {
     }
 }
 ```
-## pom.xml file:
+### pom.xml file:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -272,23 +272,23 @@ public class AppIncidents {
 </project>
 ```
 ---
-## JAR file Generation :  
+### JAR file Generation :  
  
  ![image](https://github.com/user-attachments/assets/e25ac918-db4a-403f-91a8-877fc1cc7446)
  
 
-## CSV Data Generation for streaming
+### CSV Data Generation for streaming
 
 ![image](https://github.com/user-attachments/assets/7f09c094-a20d-4b31-a837-7cefc33f7f4f)
 
 ---
-# Exécution & Results
+## Exécution & Results
 
-## Execution  
+### Execution  
 
 ![image](https://github.com/user-attachments/assets/f929c794-3597-424c-b4e3-5bfa592fd487)
 
-## Results  
+### Results  
 
 ![Screenshot 2025-01-10 002544](https://github.com/user-attachments/assets/e1f6cc62-3656-410c-b8e6-4d8dfcd0d544)
 
